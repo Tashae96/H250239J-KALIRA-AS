@@ -29,7 +29,7 @@ def main():
         elif choice == '2':
             amount = float(input("Enter amount to withdraw: "))
             if amount <= 0:
-                print("❌ Invalid withdrawal amount.")
+                print("Oops! Invalid withdrawal amount.")
             elif amount > balance:
                 print("⚠️ Insufficient funds!")
             else:
